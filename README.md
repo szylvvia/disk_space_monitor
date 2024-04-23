@@ -1,10 +1,11 @@
 <h1> HDGUARD - disk space monitor </h1>
 <p><i>Shell script</i></p>
 
-<h2>Opis działania</h2>
+<h2>How does it work?</h2>
 <p align="justify">
-Skrypt ten ma za zadanie monitorować dysk lub określoną partycję co 60 sekund. W przypadku nieprawidłowych wartości podanych podczas uruchamiania skryptu, zostanie on automatycznie zamknięty. Wartość musi być liczbą z przedziału otwartego (30;99), a skrypt akceptuje tylko jedną wartość. Wartość graniczna jest pobierana podczas wywoływania skryptu.</p>
+This script is designed to monitor a disk or specified partition every 60 seconds. If there are invalid values given when the script runs, it will automatically close. The value must be a number in the open range (30;99), and the script accepts only one value. The limit value is taken when the script is called.</p>
 <p align="justify">
-Skrypt zbiera informacje o partycji i wyświetla je użytkownikowi. Następnie oblicza, ile pamięci należy zwolnić, aby zejść poniżej wartości granicznej. Skrypt wyszukuje i wyświetla listę plików, które można usunąć, a użytkownik ma możliwość wyboru, które z nich chce usunąć. Po wyborze, skrypt automatycznie usuwa wybrane pliki i informuje użytkownika o zakończeniu działania. </p>
+The script collects the partition information and displays it to the user. It then calculates how much memory should be freed to go below the limit value. The script searches for and displays a list of files that can be deleted, and the user has the option to select which files he wants to delete. Once selected, the script automatically deletes the selected files and informs the user that the action is complete. </p>
 <p align="justify">
-Aby korzystać ze skryptu, należy uruchomić go, podając wartość graniczną przy wywoływaniu.</p>
+To use the script, run it by specifying a limit value when calling it.</p>
+
